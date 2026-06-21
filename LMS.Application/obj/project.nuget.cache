@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "+d9aB/z6asw=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\richa\\OneDrive\\Desktop\\leave management system\\LMS.Application\\LMS.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\richa\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",
+    "C:\\Users\\richa\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\12.1.1\\fluentvalidation.dependencyinjectionextensions.12.1.1.nupkg.sha512",
+    "C:\\Users\\richa\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

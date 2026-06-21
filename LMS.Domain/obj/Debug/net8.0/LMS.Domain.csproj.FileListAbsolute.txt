@@ -1,0 +1,11 @@
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\bin\Debug\net8.0\LMS.Domain.deps.json
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\bin\Debug\net8.0\LMS.Domain.dll
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\bin\Debug\net8.0\LMS.Domain.pdb
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.AssemblyInfoInputs.cache
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.AssemblyInfo.cs
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.csproj.CoreCompileInputs.cache
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.dll
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\refint\LMS.Domain.dll
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\LMS.Domain.pdb
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Domain\obj\Debug\net8.0\ref\LMS.Domain.dll

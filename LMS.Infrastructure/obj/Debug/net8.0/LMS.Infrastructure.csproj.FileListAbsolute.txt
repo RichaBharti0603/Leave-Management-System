@@ -1,0 +1,5 @@
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Infrastructure\obj\Debug\net8.0\LMS.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Infrastructure\obj\Debug\net8.0\LMS.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Infrastructure\obj\Debug\net8.0\LMS.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Infrastructure\obj\Debug\net8.0\LMS.Infrastructure.AssemblyInfo.cs
+C:\Users\richa\OneDrive\Desktop\leave management system\LMS.Infrastructure\obj\Debug\net8.0\LMS.Infrastructure.csproj.CoreCompileInputs.cache
