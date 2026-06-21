@@ -20,6 +20,12 @@ var app = builder.Build();
 
 app.UseExceptionHandler();
 
+app.UseCors(policy => policy
+    .WithOrigins("http://localhost:5173", "http://localhost:3000")
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowCredentials());
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
