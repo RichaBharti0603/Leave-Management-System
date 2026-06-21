@@ -1,3 +1,4 @@
+using LMS.Application;
 using LMS.Infrastructure;
 using LMS.Infrastructure.Data;
 
@@ -8,10 +9,16 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Add Infrastructure (EF Core, Auth, etc)
+// Add Application and Infrastructure
+builder.Services.AddApplication();
 builder.Services.AddInfrastructure(builder.Configuration);
 
+builder.Services.AddExceptionHandler<LMS.Api.Middleware.GlobalExceptionHandler>();
+builder.Services.AddProblemDetails();
+
 var app = builder.Build();
+
+app.UseExceptionHandler();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())

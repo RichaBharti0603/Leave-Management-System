@@ -1,3 +1,4 @@
+using LMS.Application.Interfaces;
 using LMS.Domain.Entities;
 using LMS.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
@@ -5,7 +6,7 @@ using System.Text.Json;
 
 namespace LMS.Infrastructure.Data;
 
-public class ApplicationDbContext : DbContext
+public class ApplicationDbContext : DbContext, IApplicationDbContext
 {
     public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : base(options) { }
 
@@ -25,6 +26,9 @@ public class ApplicationDbContext : DbContext
         base.OnModelCreating(modelBuilder);
 
         // User - EmployeeProfile (1:1)
+        modelBuilder.Entity<EmployeeProfile>()
+            .HasKey(e => e.UserId);
+
         modelBuilder.Entity<User>()
             .HasOne(u => u.EmployeeProfile)
             .WithOne(e => e.User)
